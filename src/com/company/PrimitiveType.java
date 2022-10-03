@@ -1,7 +1,7 @@
 package com.company;
 
 public class PrimitiveType {
-    void PrintByteType() {
+    void printByteType() {
         // byte type
         byte a1 = 0;
         byte b1 = 85, t88 = 127;
@@ -13,7 +13,7 @@ public class PrimitiveType {
         System.out.println("m1 is: " + t88);
     }
 
-    void PrintShortType() {
+    void printShortType() {
         // short type
         short a2 = 129;
         short b2 = 32767;
@@ -24,7 +24,7 @@ public class PrimitiveType {
         System.out.println("m2 is: " + m2);
     }
 
-    void PrintIntType() {
+    void printIntType() {
         // int type
         int a3 = 32768;
         int b3 = 2147483647;
@@ -35,7 +35,7 @@ public class PrimitiveType {
         System.out.println("m3 is: " + m3);
     }
 
-    void PrintLongType() {
+    void printLongType() {
         // long type
         long a4 = 2147483648L;
         long b4 = 9223372036854775807L;
@@ -59,7 +59,7 @@ public class PrimitiveType {
 
     }
 
-    void PrintFloatType() {
+    void printFloatType() {
         // float type
         float f5;
         f5 = 12.5F;
@@ -69,7 +69,7 @@ public class PrimitiveType {
         System.out.println("m5 is: " + m5);
     }
 
-    void PrintDoubleType() {
+    void printDoubleType() {
         // double type
         double l6;
         l6 = 148.5;
@@ -85,7 +85,7 @@ public class PrimitiveType {
         System.out.println("Плoщaдь круга равна " + a);
     }
 
-    void PrintCharType() {
+    void printCharType() {
         //char type
         char ch1 = 'Y';
         char ch2 = 'M';
@@ -102,7 +102,7 @@ public class PrimitiveType {
         System.out.println(text1 + " " + text2);
     }
 
-    void PrintBoolType() {
+    void printBoolType() {
         //boolean type
         boolean b;
         b = false;

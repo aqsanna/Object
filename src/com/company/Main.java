@@ -50,9 +50,9 @@ public class Main {
 
 
         ControlStatements controlStatements = new ControlStatements();
-        System.out.println(controlStatements.MaxNumber(5,8,-6));
+        System.out.println(controlStatements.maxNumber(5,8,-6));
         IterationStatements iterationStatements = new IterationStatements();
-        System.out.println(iterationStatements.PrintSumNumbers(100));
+        System.out.println(iterationStatements.printSumNumbers(100));
 
     }
 }

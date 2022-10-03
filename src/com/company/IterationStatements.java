@@ -3,7 +3,7 @@ package com.company;
 import java.io.IOException;
 
 public class IterationStatements {
-    void IterationStatementsMethod() throws IOException {
+    void iterationStatementsMethod() throws IOException {
 
         for (int i = 12; i <= 17; i++) {
             System.out.println(i);
@@ -54,7 +54,7 @@ public class IterationStatements {
         }
     }
 
-    int PrintEvenNumber(int x) {
+    int printEvenNumber(int x) {
         // tpel zuyg tvery
         int n;
         System.out.println("0-100 mijakayqum zuyq tvern en");
@@ -66,7 +66,7 @@ public class IterationStatements {
         return n++;
     }
 
-    int PrintOddNumbers(int x) {
+    int printOddNumbers(int x) {
 
         // tpel kent tvery
         System.out.println("0-100 mijakayqum kent tvern en");
@@ -78,7 +78,7 @@ public class IterationStatements {
         return x;
     }
 
-    int PrintDivicethree(int x) {
+    int printDivicethree(int x) {
         // tpel 3-i bajanvox tvery
         System.out.println("0 -100 mijakayqum tver voronq bajanvum en 3-i");
         for (int i = 1; i <= x; i++) {
@@ -89,7 +89,7 @@ public class IterationStatements {
         return x;
     }
 
-    double PrintFactorialNumber(int x) {
+    double printFactorialNumber(int x) {
 
         // tpel 0-100 tveri factorialy
         double y = 1;
@@ -100,7 +100,7 @@ public class IterationStatements {
         return y;
     }
 
-    int PrintSumNumbers(int x) {
+    int printSumNumbers(int x) {
         // tpel 0-100 tveri gumary
         int l = 0, h = 0;
         System.out.println("0-100 tveri gumary");
@@ -111,7 +111,7 @@ public class IterationStatements {
         return l;
     }
 
-    void PrintFigurs() {
+    void printFigurs() {
         // tpel patkerner
 
         /*
@@ -240,7 +240,7 @@ public class IterationStatements {
         }
     }
 
-    void PrintLoopsSt() {
+    void printLoopsSt() {
         // fory fori mej
         for (int i = 1; i < 11; i++) {
             System.out.println("i = " + i);

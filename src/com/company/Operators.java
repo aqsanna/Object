@@ -1,7 +1,7 @@
 package com.company;
 
 public class Operators {
-    void PrintOperators() {
+    void printOperators() {
         System.out.println("integer type operators");
         int a = 1 + 1;
         int b = a * 4;
@@ -60,7 +60,7 @@ public class Operators {
 
     }
 
-    void PrintIncrementAndDecrement() {
+    void printIncrementAndDecrement() {
         System.out.println("Increment and Decrement");
         int x = +1;
         x++;

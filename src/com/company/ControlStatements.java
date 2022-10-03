@@ -6,7 +6,7 @@ public class ControlStatements {
     int z;
     int k;
 
-    int MaxNumber(int x, int y, int z) {
+    int maxNumber(int x, int y, int z) {
         // find max number
         if (x >= y && x >= z) {
             return x;
@@ -17,7 +17,7 @@ public class ControlStatements {
         }
     }
 
-    int MinNumber(int x, int y, int z) {
+    int minNumber(int x, int y, int z) {
         // find min number
         if (x <= y && x <= z) {
             return x;
@@ -27,7 +27,7 @@ public class ControlStatements {
         return y;
     }
 
-    int MaxNumberTernory(int x, int y, int z) {
+    int maxNumberTernory(int x, int y, int z) {
         // find max for 4 number with ternary operator
         int maximum = x >= y ? x : y;
         maximum = maximum >= z ? maximum : z;
@@ -35,7 +35,7 @@ public class ControlStatements {
         return maximum;
     }
 
-    int MinNumberTernory(int x, int y, int z) {
+    int minNumberTernory(int x, int y, int z) {
         // find min for 4 number with ternary operator
 
         int minimum = x <= y ? x : y;
@@ -44,12 +44,12 @@ public class ControlStatements {
         return minimum;
     }
 
-    boolean Tringle(int x, int y, int z) {
+    boolean tringle(int x, int y, int z) {
         // triangle
         return x + y > z && x + z > y && y + z > x;
     }
 
-    int SwitchCase(int day) {
+    int switchCase(int day) {
 
         //  weekday
         switch (day) {

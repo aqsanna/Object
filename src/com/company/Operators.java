@@ -1,6 +1,7 @@
 package com.company;
 
 public class Operators {
+
     void printOperators() {
         System.out.println("integer type operators");
         int a = 1 + 1;

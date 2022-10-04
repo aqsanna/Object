@@ -10,6 +10,7 @@ public class Maximum {
     }
 
     boolean isFirstMax(int x, int y) {
+
         return x > y;
     }
 }

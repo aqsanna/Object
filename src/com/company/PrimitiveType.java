@@ -1,6 +1,7 @@
 package com.company;
 
 public class PrimitiveType {
+
     void printByteType() {
         // byte type
         byte a1 = 0;

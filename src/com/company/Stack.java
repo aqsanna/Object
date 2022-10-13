@@ -31,7 +31,6 @@ public class Stack {
         int firstNumber;
         int lastNumber;
 
-
         Fifostack(int n) {
             stack = new int[n];
             firstNumber = -1;
@@ -43,7 +42,6 @@ public class Stack {
                 System.out.println("stack is full");
             } else
                 stack[++firstNumber] = item;
-
         }
 
         public int pop() {
@@ -65,8 +63,6 @@ public class Stack {
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.pop());
-
-//        stack.pop();
 
         Fifostack fifostack = new Fifostack(4);
         fifostack.push(3);

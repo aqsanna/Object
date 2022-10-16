@@ -46,7 +46,6 @@ public class Overload {
     char[] toUppercase(char[] a){
         for (int i =0; i<a.length; i++){
            a[i] = toUppercase(a[i]);
-           System.out.print(a[i]);
         }
         return a;
     }
@@ -68,8 +67,10 @@ public class Overload {
         System.out.println(overload.foo('a', 32));
         System.out.println(overload.toUppercase('b'));
         char [] arr = {'a', 'j', 'k','T','6'};
-        System.out.println(arr);
         overload.toUppercase(arr);
+        for(int i = 0; i<arr.length; i++){
+            System.out.print(arr[i] + " ");
+        }
         System.out.println();
         System.out.println(overload.overload(2147483647));
         System.out.println(overload.overload(32766));

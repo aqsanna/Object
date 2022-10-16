@@ -8,6 +8,10 @@ public class Stack {
         tos = -1;
         this.stck = new int[n];
     }
+    Stack(){
+        stck = new int[2];
+        tos = -1;
+    }
 
     void push(int item) {
         if (tos == stck.length - 1)

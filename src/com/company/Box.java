@@ -44,7 +44,7 @@ public class Box {
         vol = box1.volume();
         System.out.println("Volume of box1 is:" + vol);
         vol = box2.volume();
-        System.out.println("Volume of box2 is:" + vol);
+        System.out.println("Volume of box2 is:" + vol);//
 
     }
 

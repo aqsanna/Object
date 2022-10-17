@@ -1,7 +1,7 @@
 package com.company;
 
 public class ParsAndBitwiseOperators {
-    void PrintParsAndBitwiseOperators() {
+    void printParsAndBitwiseOperators() {
         int i = 10;
         byte b = (byte) i;
         System.out.println(b);

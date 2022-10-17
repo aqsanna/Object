@@ -2,7 +2,7 @@ package com.company;
 
 public class Arrays {
 
-    void PrintArraysMethod() {
+    void printArraysMethod() {
         int i;
         int[] array = new int[1];
         array[0] = 10;
@@ -22,10 +22,10 @@ public class Arrays {
             System.out.print(array1[i] + " ");
         }
 
-        System.out.println();
+      System.out.println();
     }
 
-    void PrintMatrix() {
+    void printMatrix() {
         int[][] matric = new int[4][5];
         int m = 0;
         for (int i = 0; i < 4; i++) {
@@ -38,7 +38,7 @@ public class Arrays {
         System.out.println();
     }
 
-    int ArraysSum() {
+    int arraysSum() {
         System.out.println("hashvel arrayi tareri gumary");
         int[] num = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int sum = 0;
@@ -50,7 +50,7 @@ public class Arrays {
 
     }
 
-    void ArraysSumWithForech() {
+    void arraysSumWithForech() {
         System.out.println("hashvel arrayi tareri gumary for eachov");
         int[] num = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int sum5 = 0;
@@ -94,7 +94,7 @@ public class Arrays {
         System.out.println("Results is : " + result / 5);
     }
 
-    void ArraySortAscending() {
+    void arraySortAscending() {
         //Sort arrays :  ascending
 
         int[] asc = {5, 2, -6, 1, 80, 0};
@@ -114,7 +114,7 @@ public class Arrays {
         }
     }
 
-    void ArraySortDescending() {
+    void arraySortDescending() {
         // Sort arrays :  descending
         int[] asc = {5, 2, -6, 1, 80, 0};
         int def = 0;
@@ -133,7 +133,7 @@ public class Arrays {
         }
     }
 
-    int MatrixSumDiaganal() {
+    int matrixSumDiaganal() {
         // Calculate sum of diagonal lines for matrix
 
         int[][] matrix = {{11, 2, 3, 6},
@@ -159,7 +159,7 @@ public class Arrays {
 
     }
 
-    void MatrixSortAscending() {
+    void matrixSortAscending() {
         System.out.println("Sort matrix: ascending");  // sorta anum amen ira toxum bayc yndhanury chi anum
         int[][] arr = {{2, 3, 1},
                 {5, 4, 60},
